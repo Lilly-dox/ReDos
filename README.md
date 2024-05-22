@@ -30,8 +30,8 @@ Sau khi khớp 24 lần 'a', engine nhận ra rằng không có 'b' để khớp
 Engine bắt đầu quay lui và thử các tổ hợp khác của 'a' và 'aa'.
 
 - Backtracking:
- Thử khớp 23 lần 'a', rồi 1 lần 'aa', vẫn không có 'b' ở cuối.
- Thử khớp 22 lần 'a', rồi 2 lần 'aa', vẫn không có 'b' ở cuối.
+  Thử khớp 23 lần 'a', rồi 1 lần 'aa', vẫn không có 'b' ở cuối.
+  Thử khớp 22 lần 'a', rồi 2 lần 'aa', vẫn không có 'b' ở cuối.
  Cứ tiếp tục như vậy, engine thử từng tổ hợp có thể của 'a' và 'aa'.
 Ví dụ cụ thể về tổ hợp
  Tổ hợp đầu tiên: 24 lần 'a' và không có 'b'.
