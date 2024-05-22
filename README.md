@@ -2,7 +2,7 @@
 Regular expression Denial of Service (ReDos) là một loại tấn công khiến cho việc xử lý biểu thức chính quy (regex) yêu cầu thời gian cực lớn, gây chậm trễ hoặc treo hệ thống . Điều này dẫn đến số lượng các lần kiếm tra kết hợp phải tăng theo cấp số nhân với độ dài chuỗi đầu vào.
 
 
-Quay lui thảm họa (catastrophic backtracking) xảy ra khi một biểu thức chính quy (regex) phải kiểm tra một số lượng lớn các nhánh tiềm năng trước khi quyết định rằng không có khớp. Điều này có thể dẫn đến thời gian xử lý tăng lên một cách không tỷ lệ với độ dài của đầu vào, đặc biệt là khi đầu vào không khớp với mẫu regex.
+Quay lui thảm họa (catastrophic backtracking) xảy ra khi một biểu thức chính quy (regex) phải kiểm tra một số lượng lớn các nhánh tiềm năng trước khi quyết định rằng có khớp hay không. Điều này có thể dẫn đến thời gian xử lý tăng lên một cách không tỷ lệ với độ dài của đầu vào, đặc biệt là khi đầu vào không khớp với mẫu regex.
 Ví dụ về Catastrophic Backtracking
 Giả sử chúng ta có biểu thức chính quy sau đây:
 ```(a|aa)*b```
