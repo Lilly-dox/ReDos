@@ -32,12 +32,14 @@ Engine bắt đầu quay lui và thử các tổ hợp khác của 'a' và 'aa'.
 - Backtracking:
   + Thử khớp 23 lần 'a', rồi 1 lần 'aa', vẫn không có 'b' ở cuối.
   + Thử khớp 22 lần 'a', rồi 2 lần 'aa', vẫn không có 'b' ở cuối.
-Cứ tiếp tục như vậy, engine thử từng tổ hợp có thể của 'a' và 'aa'.
+    
+ Cứ tiếp tục như vậy, engine thử từng tổ hợp có thể của 'a' và 'aa'.
 - Ví dụ cụ thể về tổ hợp
   + Tổ hợp đầu tiên: 24 lần 'a' và không có 'b'.
   + Tổ hợp thứ hai: 23 lần 'a', 1 lần 'aa', không có 'b'.
   + Tổ hợp thứ ba: 22 lần 'a', 2 lần 'aa', không có 'b'.
   + Tổ hợp thứ tư: 21 lần 'a', 3 lần 'aa', không có 'b'.
+
 Và cứ tiếp tục như vậy cho đến khi engine thử tất cả các tổ hợp có thể của 'a' và 'aa'.
 - Kết quả
 Vì không có 'b' ở cuối, tất cả các tổ hợp đều thất bại. Quá trình này có thể rất tốn thời gian vì số lượng các tổ hợp là rất lớn, dẫn đến quay lui thảm họa.
