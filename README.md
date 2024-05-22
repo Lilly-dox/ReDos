@@ -15,7 +15,7 @@ Ví dụ cụ thể
 'aaaab': Khớp (vì (a|aa)* khớp với 'aaaa', sau đó là 'b').
 'aaaaaaab': Khớp (vì (a|aa)* khớp với bảy 'a' (có thể phân tích thành các tổ hợp 'a' và 'aa'), sau đó là 'b')
 ```
-Chúng ta lấy chuỗi đầu vào: 'aaaaaaaaaaaaaaaaaaaaaaaaa'
+Chúng ta lấy chuỗi đầu vào: `aaaaaaaaaaaaaaaaaaaaaaaaa`
  Chuỗi này gồm 24 ký tự 'a' liên tiếp và không có 'b' ở cuối. Vì không có 'b' ở cuối, regex engine sẽ cố gắng khớp từng phần của chuỗi với (a|aa)* theo nhiều tổ hợp khác nhau.
 # Quá trình khớp (Matching Process)
 Khi regex engine gặp chuỗi này, nó sẽ thử từng tổ hợp của 'a' và 'aa' để tìm cách khớp, dẫn đến quay lui nhiều lần. Đây là một số bước cơ bản mà regex engine có thể thực hiện:
