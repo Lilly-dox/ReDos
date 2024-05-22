@@ -22,7 +22,7 @@ Khi regex engine gặp chuỗi này, nó sẽ thử từng tổ hợp của 'a' 
 
 - Bước đầu tiên:
 
-Thử khớp toàn bộ chuỗi 'aaaaaaaaaaaaaaaaaaaaaaaa' với (a|aa)*.
+Thử khớp toàn bộ chuỗi ```aaaaaaaaaaaaaaaaaaaaaaaa``` với (a|aa)*.
 Thử khớp các phần tử 'a' từng cái một (24 lần 'a').
 
 - Bước tiếp theo:
