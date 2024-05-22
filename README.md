@@ -44,3 +44,4 @@ Và cứ tiếp tục như vậy cho đến khi engine thử tất cả các t�
 - Kết quả:
 Vì không có 'b' ở cuối, tất cả các tổ hợp đều thất bại. Quá trình này có thể rất tốn thời gian vì số lượng các tổ hợp là rất lớn, dẫn đến quay lui thảm họa.
 
+![image](https://github.com/Lilly-dox/ReDos/assets/130746941/47c3ab37-95aa-4b5f-bea1-18fcd54b03ec)
